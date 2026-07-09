@@ -1,0 +1,47 @@
+{
+  "name": "rewards-tracking-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://uipowerranger-sys.github.io/rewards-tracking-app",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^8.0.1",
+    "@babel/preset-env": "^8.0.2",
+    "@babel/preset-react": "^8.0.1",
+    "@eslint/js": "^9.39.4",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "babel-jest": "^30.4.1",
+    "eslint": "^9.39.4",
+    "eslint-plugin-jest": "^29.15.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.3",
+    "gh-pages": "^6.3.0",
+    "globals": "^17.7.0",
+    "husky": "^9.1.7",
+    "jest": "^30.4.2",
+    "jest-environment-jsdom": "^30.4.1",
+    "prettier": "^3.9.5",
+    "react-test-renderer": "^19.2.7",
+    "vite": "^8.1.1"
+  }
+}
