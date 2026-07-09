@@ -63,14 +63,17 @@ export default [
 
     },
 
-
     rules: {
 
       "react/react-in-jsx-scope": "off",
 
       "react/prop-types": "off",
 
-      "no-unused-vars": "warn"
+      "no-unused-vars": "off",
+
+      "react/jsx-uses-react": "off",
+
+      "react/jsx-uses-vars": "error"
 
     }
 
