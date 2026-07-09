@@ -43,16 +43,15 @@ jobs:
         run: npm run lint
 
 
-      - name: Run Jest Tests With Coverage
+      - name: Run Tests Coverage
         run: npm run test:coverage
 
 
-      - name: Build React Application
+      - name: Build React App
         run: npm run build
 
 
-      - name: Deploy to GitHub Pages
-        if: github.ref == 'refs/heads/main'
+      - name: Deploy GitHub Pages
 
         uses: peaceiris/actions-gh-pages@v4
 
