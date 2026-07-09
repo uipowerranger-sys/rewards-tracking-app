@@ -6,10 +6,6 @@ import TransactionsTable
 import MonthlyRewardsTable
   from "./components/MonthlyRewardsTable/MonthlyRewardsTable";
 
-// import TotalRewardsTable
-//   from "./components/TotalRewardsTable/TotalRewardsTable";
-// // from "./components/TotalRewardsTable/TotalRewardsTable";
-
 import LoadingIndicator
   from "./components/LoadingIndicator/LoadingIndicator";
 
@@ -20,10 +16,8 @@ import ErrorBoundary
 import { transactions }
   from "./data/transactions";
 
-
 import { getMonthlyRewards }
   from "./utils/rewardAggregator";
-
 
 import { getTotalRewards }
   from "./utils/totalRewards";
@@ -36,70 +30,31 @@ function App() {
 
   const [loading, setLoading] = useState(true);
 
-
-
   useEffect(() => {
-
-
     setTimeout(() => {
-
       setLoading(false);
-
     }, 1000);
-
-
   }, []);
 
 
-
   if (loading) {
-
     return <LoadingIndicator />;
-
   }
 
 
-
   return (
-
-
     <ErrorBoundary>
-
-
-      <h1>
-        Rewards Dashboard
-      </h1>
-
-
-      <TransactionsTable
-        transactions={transactions}
+      <h1>Rewards Dashboard</h1>
+      <TransactionsTable transactions={transactions}
       />
-
-
       <MonthlyRewardsTable
-
         data={
           getMonthlyRewards(transactions)
         }
-
       />
-
-
-
-      <TotalRewardsTable
-
-        data={
-          getTotalRewards(transactions)
-        }
-
-      />
-
-
+      <TotalRewardsTable data={getTotalRewards(transactions)} />
     </ErrorBoundary>
-
-
   );
-
 
 }
 

@@ -7,32 +7,21 @@ import TransactionsTable
 test(
     "Transactions table snapshot",
     () => {
-
-
-        const mockTransactions = [
-
-            {
-                id: 1,
-                customerName: "John",
-                transactionDate: "2026-01-10",
-                product: "Laptop",
-                amount: 120
-            }
+        const mockTransactions = [{
+            id: 1,
+            customerName: "John",
+            transactionDate: "2026-01-10",
+            product: "Laptop",
+            amount: 120
+        }
 
         ];
 
 
-        const tree =
-            renderer
-                .create(
+        const tree = renderer.create(<TransactionsTable transactions={mockTransactions}
+        />
 
-                    <TransactionsTable
-                        transactions={mockTransactions}
-                    />
-
-                )
-                .toJSON();
-
+        ).toJSON();
 
         expect(tree)
             .toMatchSnapshot();
