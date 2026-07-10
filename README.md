@@ -186,6 +186,10 @@ Implemented tests:
 
 ✔ Snapshot tests
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5c1e90746ca209e2b8017fbdd2076fec1b71bba4
 Generate coverage:
 
 ```bash
@@ -270,6 +274,10 @@ Pipeline executes:
 
 7. Deploy to GitHub Pages
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5c1e90746ca209e2b8017fbdd2076fec1b71bba4
 Pipeline runs on:
 
 - Push
