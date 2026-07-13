@@ -3,10 +3,12 @@ import PropTypes from "prop-types";
 const TransactionsTable = ({ transactions }) => {
 
   return (
-    <div>
-      <h2>Transactions</h2>
-
-      <table border="1">
+    <section className="table-card">
+      <div className="table-card__header">
+        <h2>Transactions</h2>
+      </div>
+      <div className="table-responsive">
+        <table>
 
         <thead>
           <tr>
@@ -39,9 +41,9 @@ const TransactionsTable = ({ transactions }) => {
 
         </tbody>
 
-      </table>
-
-    </div>
+        </table>
+      </div>
+    </section>
   );
 
 };

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1783624343564" clover="3.2.0">
-  <project timestamp="1783624343564" name="All files">
+<coverage generated="1783931133146" clover="3.2.0">
+  <project timestamp="1783931133146" name="All files">
     <metrics statements="31" coveredstatements="24" conditionals="8" coveredconditionals="7" methods="11" coveredmethods="4" elements="50" coveredelements="35" complexity="0" loc="31" ncloc="31" packages="5" files="6" classes="6"/>
     <package name="components.LoadingIndicator">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -16,19 +16,19 @@
         <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
         <line num="4" count="1" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
       </file>
     </package>
     <package name="components.TotalRewardsTable">
       <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <file name="TotalRewardsTable.jsx" path="C:\Users\Vinod\OneDrive\Documents\Infy\rewards-tracking-app\src\components\TotalRewardsTable\TotalRewardsTable.jsx">
         <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="35" count="0" type="stmt"/>
-        <line num="59" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
       </file>
     </package>
     <package name="components.TransactionsTable">
@@ -37,8 +37,8 @@
         <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="3" count="1" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="50" count="1" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
       </file>
     </package>
     <package name="utils">

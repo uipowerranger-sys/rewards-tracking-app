@@ -4,9 +4,12 @@ import PropTypes from "prop-types";
 const MonthlyRewardsTable = ({ data }) => {
 
     return (
-        <div>
-            <h2>Monthly Rewards</h2>
-            <table border="1">
+        <section className="table-card">
+            <div className="table-card__header">
+                <h2>Monthly Rewards</h2>
+            </div>
+            <div className="table-responsive">
+                <table>
                 <thead>
                     <tr>
                         <th>Customer</th>
@@ -31,8 +34,9 @@ const MonthlyRewardsTable = ({ data }) => {
                             ))
                     }
                 </tbody>
-            </table>
-        </div>
+                </table>
+            </div>
+        </section>
     );
 };
 
