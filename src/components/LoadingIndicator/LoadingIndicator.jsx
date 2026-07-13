@@ -1,16 +1,9 @@
 const LoadingIndicator = () => {
-
-
     return (
-
-        <h3>
-            Loading rewards data...
-        </h3>
-
+        <div className="status-message">
+            <h3>Loading rewards data...</h3>
+        </div>
     );
-
-
 };
-
 
 export default LoadingIndicator;

@@ -8,21 +8,11 @@ test(
     "total rewards snapshot",
     () => {
 
-
-        const tree =
-            renderer
-                .create(
-
-                    <TotalRewardsTable
-                        data={{ John: 90 }}
-                    />
-
-                )
-                .toJSON();
-
+        const tree = renderer.create(<TotalRewardsTable
+            data={{ John: 90 }}
+        />
+        ).toJSON();
 
         expect(tree)
             .toMatchSnapshot();
-
-
     });

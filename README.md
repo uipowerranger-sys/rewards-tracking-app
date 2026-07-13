@@ -186,7 +186,6 @@ Implemented tests:
 
 ✔ Snapshot tests
 
-
 Generate coverage:
 
 ```bash
@@ -270,7 +269,6 @@ Pipeline executes:
 6. Build application
 
 7. Deploy to GitHub Pages
-
 
 Pipeline runs on:
 
